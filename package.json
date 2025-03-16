@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "excel-draw",
   "private": true,
   "scripts": {
     "build": "turbo run build",
