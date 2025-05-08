@@ -173,6 +173,9 @@ importers:
 
   apps/ws-backend:
     dependencies:
+      '@prisma/client':
+        specifier: 6.5.0
+        version: 6.5.0(prisma@6.5.0(typescript@5.8.2))(typescript@5.8.2)
       '@repo/common-backend':
         specifier: workspace:*
         version: link:../../packages/common-backend

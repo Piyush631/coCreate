@@ -8,10 +8,11 @@
     "dev": "npm run build && npm run start"
   },
   "dependencies": {
+    "@prisma/client": "6.5.0",
+    "@repo/common-backend": "workspace:*",
+    "@repo/database": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/jsonwebtoken": "^9.0.9",
-    "@repo/common-backend":"workspace:*",
-     "@repo/database":"workspace:*",
     "@types/ws": "^8.18.0",
     "jsonwebtoken": "^9.0.2",
     "ws": "^8.18.1"
