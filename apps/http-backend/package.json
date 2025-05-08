@@ -8,6 +8,7 @@
     "dev": "npm run build && npm run start"
   },
   "dependencies": {
+    "@prisma/client": "6.5.0",
     "@types/bcrypt": "^5.0.2",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",

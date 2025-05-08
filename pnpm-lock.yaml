@@ -81,6 +81,9 @@ importers:
 
   apps/http-backend:
     dependencies:
+      '@prisma/client':
+        specifier: 6.5.0
+        version: 6.5.0(prisma@6.5.0(typescript@5.8.2))(typescript@5.8.2)
       '@types/bcrypt':
         specifier: ^5.0.2
         version: 5.0.2
